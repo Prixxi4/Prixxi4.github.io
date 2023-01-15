@@ -1,0 +1,193 @@
+/* 
+orange: #EEB452
+bleu: #151B49
+*/
+
+body {
+    background: #FFF7C9;
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+.top .textdiv {
+    position: absolute;
+    left: 50px;
+    overflow: auto;
+    top: 25%;
+    bottom: 25px;
+    text-align: justify;
+}
+
+.bottom .textdiv {
+    left: 50px;
+    position: absolute;
+    bottom: 25%;
+    top: 25px;
+    right: 0px;
+    overflow: auto;
+    text-align: justify;
+    transform: rotate(180Deg);
+    direction: rtl;
+}
+
+.bottom .textdiv .text {
+    position: absolute;
+    top: 0px;
+    transform: rotate(180Deg);
+    direction: ltr;
+}
+
+
+.top .linedot h2 {
+    position: absolute;
+    font-size: 2em;
+    left: 10px;
+    top: -10px;
+    line-height: 2em;
+    transform: translateY(-100%);
+}
+
+.bottom .linedot h2 {
+    position: absolute;
+    font-size: 2em;
+    left: 10px;
+    bottom: -10px;
+    line-height: 2em;
+    transform: translateY(+100%);
+}
+
+.bar {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    height: 26px;
+    width: 80%;
+    background-color: #EEB452;
+    transform: translateY(-50%);
+}
+
+.pointe {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid #EEB452;
+    transform: translateY(-50%);
+}
+
+.pointe-derriere {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid #FFF7C9;
+    transform: translateY(-50%);
+}
+
+.top .years {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #a7813f;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    top: 100%;
+    transform: translateY(-50%);
+}
+
+.bottom .years {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #a7813f;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    transform: translateY(-50%);
+}
+
+.top {
+    height: 50%;
+    width: 20%;
+    position: absolute;
+}
+
+.bottom {
+    height: 50%;
+    top: 50%;
+    width: 20%;
+    position: absolute;
+}
+
+#year1970 {
+    left: 20%;
+}
+
+#year1980 {
+    left: 30%;
+}
+
+#year1990 {
+    left: 40%;
+}
+
+.top .linedot {
+    position: absolute;
+    bottom: 25px;
+    height: 70%;
+    width: 54px;
+}
+
+.top .line {
+    position: absolute;
+    top: 5%;
+    left: 25px;
+    width: 4px;
+    height: 95%;
+    background-color: black;
+}
+
+.top .dot {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 21px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.bottom .linedot {
+    position: absolute;
+    top: 25px;
+    height: 70%;
+    width: 54px;
+}
+
+.bottom .line {
+    position: absolute;
+    left: 25px;
+    width: 4px;
+    height: 95%;
+    background-color: black;
+}
+
+.bottom .dot {
+    position: absolute;
+    bottom: 0px;
+    width: 12px;
+    height: 12px;
+    left: 21px;
+    background-color: black;
+    border-radius: 50%;
+}
