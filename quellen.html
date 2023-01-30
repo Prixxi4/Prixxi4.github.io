@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geschitsprojekt</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
 </head>
 
 <body class="main">
-    <nav>
+    <nav id="sidebar">
+        <button id="closebtn" onclick="closenav()">×</button>
         <ul>
             <li>
                 <a href="index.html">Zeitstrahl</a>
@@ -25,7 +27,8 @@
             </li>
         </ul>
     </nav>
-    <section class="left">
+    <button id="openbtn" onclick="opennav()">☰</button>
+    <section class="left section">
         <h1>Quellen</h1>
         <ol id="quellen">
             <li>Schwerin Urlich, Rogg Inga (25.01.2023) <a

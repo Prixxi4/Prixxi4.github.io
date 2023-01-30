@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geschitsprojekt</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
 </head>
 
 <body class="main">
-    <nav>
+    <nav id="sidebar">
+        <button id="closebtn" onclick="closenav()">×</button>
         <ul>
             <li>
                 <a href="index.html">Zeitstrahl</a>
@@ -25,7 +27,8 @@
             </li>
         </ul>
     </nav>
-    <section class="center">
+    <button id="openbtn" onclick="opennav()">☰</button>
+    <section class="center section">
         <h1>Aktuelle Lage in Iran</h1>
         <h2>Proteste</h2>
         <p>Am 16. September 2022 starb Mahsa Amini (22) in Polizeigewahrsam. Die offizielle Todesuhrsache ist eine
