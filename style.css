@@ -11,6 +11,42 @@ body {
 
 }
 
+#heute {
+    position: absolute;
+    left: 83%;
+    top: 50%;
+    height: 50px;
+    background-color: #a7813f;
+    border: 2px solid black;
+    border-radius: 27px;
+    vertical-align: center;
+    transform: translateY(-50%);
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: nowrap;
+    width: 105px;
+    font-family: Helvetica, sans-serif;
+}
+
+#heute a {
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+figure {
+    width: 200px;
+    height: auto;
+    float: right;
+}
 
 .main {
     margin: 0px;
